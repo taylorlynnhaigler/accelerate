@@ -134,3 +134,58 @@ div.case-study-images img {
     margin-bottom: 50px;
     border: 1px solid #dddddd;
 }
+/* Contact Us */
+
+
+#nf-field-1 {
+    margin-left: 0;
+    float: left;
+    position: inline-block;
+}
+
+#nf-field-2, {
+    margin-left: 0;
+    float: right;
+    position: inline-block;
+}
+.ninja-forms-all-fields-wrap {
+    overflow: hidden;
+}
+
+#nf-field-4 {
+    display: block;
+    float: right;
+    background-color: #45ac9d;
+    color: white;
+    width: 200px;
+    height: 60px;
+    font-family: 'Montserrat';
+}
+
+#content {
+    margin-top: 50px;
+}
+
+#content h2, #content p {
+    padding: 10px;
+}
+
+#content p, .nf-field-label{
+    color: #555f61;
+    font-size: .9em;
+    font-weight: normal;
+}
+.nf-field-label {
+    font-size: .8em;
+}
+.nf-form-cont, #content h2, #content p{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.nf-response-message p {
+    width: 100%;
+}
+
+
+
