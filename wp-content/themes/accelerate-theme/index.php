@@ -54,7 +54,7 @@ get_header(); ?>
 			<?php get_sidebar(); ?>
 		
 				<div class="clearfix"></div>
-					
+			
 			<div id="navigation" class="navigation"> 
 				<div class="left"><?php next_posts_link('&larr; <span>Older Posts</span>'); ?></div>
 				<div class="right"><?php previous_posts_link('<span>Newer Posts</span> &rarr;'); ?></div>
