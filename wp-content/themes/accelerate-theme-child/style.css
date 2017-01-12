@@ -222,7 +222,7 @@ div.case-study-images img {
     position: inline-block;
 }
 
-#nf-field-2, {
+#nf-field-2 {
     margin-left: 0;
     float: right;
     position: inline-block;
@@ -433,6 +433,11 @@ div.case-study-images img {
 }
 .social-media-navigation ul li {
      display: inline;
+     font-size: .8em;
 }
- 
 
+li.social-icon {
+    width: 20px;
+    float: left;
+    margin: 10px;
+}
