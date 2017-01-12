@@ -395,14 +395,14 @@ div.case-study-images img {
     text-align: center;
     color: white;
     background-color: #45ac9d;
-    height: px;
     width: 240px;
+    height: 40px;
     float: left;
     margin-top: 20px;
-    padding-top: 15px;
+    padding-top: 10px;
 }
 .button-contact-us a {
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 /* 404 Page */
@@ -440,4 +440,30 @@ li.social-icon {
     width: 20px;
     float: left;
     margin: 10px;
+}
+.icon-twitter {
+    padding: 5px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #333;
+    color: white;
+}
+.icon-linkedin {
+    padding: 5px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #333;
+    color: white;
+}
+.icon-facebook {
+    background-color: #333;
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+    width: 10px;
+    text-align: center;
+    display: inline;
+    margin: 10px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
 }
