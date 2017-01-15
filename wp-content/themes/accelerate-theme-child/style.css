@@ -72,6 +72,19 @@ nav a {
 
 /* Homepage */
 
+.homepage-hero p:first-child {
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 2.2em;
+    margin-top: 100px;
+}
+.homepage-hero p:nth-child(2) {
+    color: white;
+    font-family: 'Montserrat';
+    margin-bottom: 60px;
+    margin-top: -20px;
+    font-weight: 100;
+}
 .site-content h4 {
     text-transform: uppercase;
     text-align: center;
@@ -99,6 +112,7 @@ figure {
     width: 290px;
     height: 215px;
 }
+
 .individual-featured-work h3 {
     text-align: center;
 }
@@ -132,6 +146,8 @@ figure {
     text-transform: uppercase;
     font-size: .9em;
     color: #a6a6a6;
+    letter-spacing: .9px;
+    font-weight: bold;
 }
 
 .twitter h5 {
@@ -194,6 +210,8 @@ aside.case-study-sidebar h5{
 }
 aside.case-study-sidebar h6 {
     font-weight: normal;
+    margin-left: 10px;
+    line-height: 1.5;
 }
 
 aside.case-study-sidebar h5, h6 {
@@ -203,9 +221,9 @@ aside.case-study-sidebar h5, h6 {
 
 div.case-study-images {
     float: left;
-    width: 600px;
     margin-top: -20px;
     margin-bottom: 20px;
+    width: 606px;
 }
 
 div.case-study-images img {
@@ -213,6 +231,8 @@ div.case-study-images img {
     margin-bottom: 60px;
     border: 1px solid #dddddd;
 }
+
+
 /* Contact Us */
 
 
@@ -429,41 +449,27 @@ div.case-study-images img {
 /* Footer */
 
 .social-media-navigation ul {
-    list-style-type: none !important;
+    margin: 0;
 }
 .social-media-navigation ul li {
-     display: inline;
-     font-size: .8em;
+     display: inline-block;
+     background: rgba(0,0,0,0.8);
+     margin: 0px;
+     width: 40px;
+     text-align: center;
+     font-size: 0.7rem;
+     border-radius: 100%;
+     -webkit-border-radius:100%;
+     -moz-border-radius: 100%;
 }
-
+.social-media-navigation ul li a {
+    top: initial;
+    display: block;
+    padding: 10px 0;
+    color: white;
+}
 li.social-icon {
     width: 20px;
     float: left;
     margin: 10px;
-}
-.icon-twitter {
-    padding: 5px;
-    width: 10px;
-    border-radius: 50%;
-    background-color: #333;
-    color: white;
-}
-.icon-linkedin {
-    padding: 5px;
-    width: 10px;
-    border-radius: 50%;
-    background-color: #333;
-    color: white;
-}
-.icon-facebook {
-    background-color: #333;
-    color: white;
-    border-radius: 50%;
-    padding: 5px;
-    width: 10px;
-    text-align: center;
-    display: inline;
-    margin: 10px;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
 }
